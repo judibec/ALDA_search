@@ -9,7 +9,6 @@ arrayTernary = [[82, 0, 1, 23, 13, 78, 45, 32, 69, 15], 2, 15]
 
 
 class AlgorithmsTests(unittest.TestCase):
-
     def test_linear_search_not_in_the_list(self):
         self.assertFalse(searching.linearSearch(arrayLinear[0], arrayLinear[1]))
 
@@ -29,5 +28,5 @@ class AlgorithmsTests(unittest.TestCase):
         self.assertTrue(searching.linearSearch(arrayTernary[0], arrayTernary[2]))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

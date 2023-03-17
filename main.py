@@ -2,7 +2,7 @@ from searchMethods import searching
 from complexity import executionTime
 import matplotlib.pyplot as mlt
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     table = executionTime.take_execution_time(10000, 1000000, 50000, 5)
     xpoints = []
     ypoints = []
@@ -13,4 +13,3 @@ if __name__ == '__main__':
 
     mlt.plot(xpoints, ypoints)
     mlt.show()
-

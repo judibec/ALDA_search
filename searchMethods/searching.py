@@ -45,7 +45,6 @@ def ternarySearch(array, search):
     array.sort()
     (left, right) = (0, len(array) - 1)
     while left <= right:
-
         leftMid = left + (right - left) // 3
         rightMid = right - (right - left) // 3
 

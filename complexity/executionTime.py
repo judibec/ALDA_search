@@ -22,7 +22,7 @@ def take_times(size, samples_by_size):
     return [
         take_time_for_algorithm(samples, s.linearSearch),
         take_time_for_algorithm(samples, s.binarySearch),
-        take_time_for_algorithm(samples, s.ternarySearch)
+        take_time_for_algorithm(samples, s.ternarySearch),
     ]
 
 
